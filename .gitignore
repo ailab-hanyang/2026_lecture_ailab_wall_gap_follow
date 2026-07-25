@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# ROS 2 and colcon build artifacts
+build/
+install/
+log/
+build_humble/
+install_humble/
+log_humble/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+*~
