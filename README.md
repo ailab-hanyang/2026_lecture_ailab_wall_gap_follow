@@ -96,11 +96,8 @@ source ~/f1tenth_wall_gap_follow/install/setup.bash
 ```bash
 cd <SIM_WS_PATH>
 source /opt/ros/humble/setup.bash
-source install_humble/setup.bash
+source install/setup.bash
 
-export PYTHONPATH=<F1TENTH_GYM_PATH>:$PYTHONPATH
-export NUMBA_CACHE_DIR=/tmp/f110_numba_cache
-export ROS_LOG_DIR=/tmp/f1tenth_ros_logs
 
 ros2 launch f1tenth_gym_ros gym_bridge_launch.py
 ```
